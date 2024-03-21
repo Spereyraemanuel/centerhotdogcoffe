@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 45%; /* Utilizamos porcentajes para que los contenedores sean más flexibles */
+    margin: 10px; /* Agregar margen entre los contenedores */
+    text-align: center; /* Centrar el contenido */
+}
+
+img {
+    width: 100%; /* Ajustamos el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantenemos la relación de aspecto de la imagen */
+}
+
+p {
+    color: white;
+    margin-top: 10px;
+}
